@@ -1,0 +1,3 @@
+include ':thermocaresdk2'
+include ':app'
+rootProject.name = "Inheart"

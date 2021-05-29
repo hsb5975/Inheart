@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">인하트</string>
+
+    <string name="INTENT_ACTION_NAME">com.tnrbiofab.thermocaresdksample</string>
+    <string name="DEVICE_NAME_THERMOCARE">THERMOCARE</string>
+    <string name="UUID_FORMAT_THERMOCARE">0000****-0000-2000-4200-D3E2ADFBE7EF</string>
+    <string name="UUID_FORMAT_BLESTD">0000****-0000-1000-8000-00805F9B34FB</string>
+    <string name="PREFIX_BLESTD">BLESTD</string>
+    <string name="NON_HUMAN_READABLE_DATA">NON HUMAN-READABLE DATA</string>
+    <string name="OK">OK</string>
+    <string name="CONNECT">CONNECT</string>
+    <string name="DISCOVERING">DISCOVERING</string>
+    <string name="CONNECTING">CONNECTING</string>
+    <string name="DISCONNECTING">DISCONNECTING</string>
+    <string name="DISCONNECT">DISCONNECT</string>
+    <string name="CONFIRM">확인</string>
+    <string name="YES">네</string>
+    <string name="NO">아니오</string>
+
+    <string name="TYPE_CTS_NOTIFICATION">CTS_NOTIFICATION</string>
+    <string name="TYPE_HTS_INDICATION">HTS_INDICATION</string>
+
+    <string name="FLAG_BT_NOT_AVAILABLE">BT_NOT_AVAILABLE</string>
+    <string name="FLAG_SDK_NOT_AVAILABLE">SDK_NOT_AVAILABLE</string>
+    <string name="FLAG_DISCOVERED_THERMOMETER">DISCOVERED_THERMOMETER</string>
+    <string name="FLAG_CONNECTED_GATT">CONNECTED_GATT</string>
+    <string name="FLAG_DISCONNECTED_GATT">DISCONNECTED_GATT</string>
+    <string name="FLAG_DISCONNECTED_FROM_THERMOMETER">DISCONNECTED_FROM_THERMOMETER</string>
+    <string name="FLAG_BLE_CH_READ">BLE_CH_READ</string>
+    <string name="FLAG_BLE_CH_WRITE">BLE_CH_WRITE</string>
+    <string name="FLAG_BLE_CH_CHANGED">BLE_CH_CHANGED</string>
+    <string name="FLAG_BLE_CH_DESC_WRITE">BLE_CH_DESC_WRITE</string>
+    <string name="FLAG_BLE_CH_RW_ERROR">BLE_CH_RW_ERROR</string>
+
+    <string name="title_info_requisite_permissions">필수 권한 안내</string>
+    <string name="msg_info_requisite_permissions">이 애플리케이션에서 Bluetooth를 사용하기 위해 \'위치\' 권한이 필요합니다.\n\n아래의 확인 버튼을 눌러 나오는 화면에서 \'권한\'을 누르고 \'위치\' 권한을 활성화 후 애플리케이션을 재시작하십시오.</string>
+    <string name="msg_confirm_exit_app">종료하시겠습니까?</string>
+    <string name="msg_bt_not_available">Bluetooth가 사용 가능한 상태가 아닙니다.\nBluetooth 활성화 상태를 확인하십시오.</string>
+    <string name="msg_sdk_available">THERMOCARE SDK version %1$s\n사용만료: %2$s</string>
+    <string name="msg_sdk_not_available">SDK가 사용 가능한 상태가 아닙니다.\n라이선스 키 또는 SDK의 유효기간을 확인하십시오.</string>
+    <string name="msg_connected">연결되었습니다.</string>
+    <string name="msg_disconnected">연결을 해제했습니다.</string>
+    <string name="msg_disconnected_with_thermometer">체온계와의 연결이 끊어졌습니다.</string>
+    <string name="msg_characteristic_rw_error">BLE 통신 중 오류가 발생했습니다.\n연결 확인 후 다시 시도해주십시오.</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "571222623493",
+    "project_id": "inheart-nine-rainbow",
+    "storage_bucket": "inheart-nine-rainbow.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571222623493:android:2b3ee382249b54c3caa36c",
+        "android_client_info": {
+          "package_name": "com.bluetag.inheart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571222623493-h65r9gjv1vrtaquav5stsvi4chl7ma91.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6YKcpxq9_OJoAX0UTap579tb_jkAS62w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "571222623493-h65r9gjv1vrtaquav5stsvi4chl7ma91.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

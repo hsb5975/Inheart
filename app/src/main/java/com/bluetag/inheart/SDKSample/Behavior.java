@@ -1,0 +1,38 @@
+package com.bluetag.inheart.SDKSample;
+
+public class Behavior {
+    // Device Information Service (DIS)
+    public static final String BLESTD_READ_MANUFACTURER_NAME = "BLESTD_READ_MANUFACTURER_NAME";
+    public static final String BLESTD_READ_MODEL_NUMBER = "BLESTD_READ_MODEL_NUMBER";
+    public static final String BLESTD_READ_SERIAL_NUMBER = "BLESTD_READ_SERIAL_NUMBER";
+    public static final String BLESTD_READ_HW_REV = "BLESTD_READ_HW_REV";
+    public static final String BLESTD_READ_FW_REV = "BLESTD_READ_FW_REV";
+    public static final String BLESTD_READ_SW_REV = "BLESTD_READ_SW_REV";
+    public static final String BLESTD_READ_SYSTEM_ID = "BLESTD_READ_SYSTEM_ID";
+    public static final String BLESTD_READ_IEEE_11073_20601 = "BLESTD_READ_IEEE_11073_20601";
+
+    // Current Time Service (CTS)
+    public static final String BLESTD_WRITE_CURRENT_TIME = "BLESTD_WRITE_CURRENT_TIME";
+    public static final String BLESTD_READ_CURRENT_TIME = "BLESTD_READ_CURRENT_TIME";
+    public static final String BLESTD_CURRENT_TIME_NOTIFICATION_ON = "BLESTD_CURRENT_TIME_NOTIFICATION_ON";
+    public static final String BLESTD_CURRENT_TIME_NOTIFICATION_OFF = "BLESTD_CURRENT_TIME_NOTIFICATION_OFF";
+
+    // Battery Service (BAS)
+    public static final String BLESTD_READ_BATTERY_LEVEL = "BLESTD_READ_BATTERY_LEVEL";
+
+    // Health Thermometer Service (HTS)
+    public static final String BLESTD_TEMPERATURE_MEASUREMENT_INDICATION_ON = "BLESTD_TEMPERATURE_MEASUREMENT_INDICATION_ON";
+    public static final String BLESTD_TEMPERATURE_MEASUREMENT_INDICATION_OFF = "BLESTD_TEMPERATURE_MEASUREMENT_INDICATION_OFF";
+    public static final String BLESTD_READ_TEMPERATURE_TYPE = "BLESTD_READ_TEMPERATURE_TYPE";
+    public static final String THERMOCARE_READ_SENSOR_DATA = "THERMOCARE_READ_SENSOR_DATA";
+    public static final String THERMOCARE_ACK_SENSOR_DATA = "THERMOCARE_ACK_SENSOR_DATA";
+    public static final String THERMOCARE_READ_CURRENT_USER = "THERMOCARE_READ_CURRENT_USER";
+    public static final String THERMOCARE_WRITE_CURRENT_USER = "THERMOCARE_WRITE_CURRENT_USER";
+    public static final String THERMOCARE_READ_USER_LIST = "THERMOCARE_READ_USER_LIST";
+    public static final String THERMOCARE_WRITE_USER_LIST = "THERMOCARE_WRITE_USER_LIST";
+    public static final String THERMOCARE_READ_CALIBRATION_DATA = "THERMOCARE_READ_CALIBRATION_DATA";
+    public static final String THERMOCARE_READ_DATA_COUNT = "THERMOCARE_READ_DATA_COUNT";
+    public static final String THERMOCARE_ERASE_ALL_DATA = "THERMOCARE_ERASE_ALL_DATA";
+    public static final String THERMOCARE_BT_ALWAYS_SW_ON = "THERMOCARE_BT_ALWAYS_SW_ON";
+    public static final String THERMOCARE_BT_ALWAYS_SW_OFF = "THERMOCARE_BT_ALWAYS_SW_OFF";
+}
